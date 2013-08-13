@@ -19,7 +19,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hey you clicked me","Oi");
+            MessageBox.Show("Hey you clicked me","Look At Me");
         }
 
         private void button2_MouseHover(object sender, EventArgs e)
