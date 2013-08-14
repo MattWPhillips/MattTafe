@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MyNameSpace;
 
 namespace WindowsFormsApplication1
 {
@@ -25,7 +26,8 @@ namespace WindowsFormsApplication1
 
         private void button2_MouseHover(object sender, EventArgs e)
         {
-            MessageBox.Show("Hey click me already", "HOVERING");
+            MyClass1 mc = new MyClass1("Ryac");
+            MyClass1.ShowMessage("Ryac");
         }
     }
 }
