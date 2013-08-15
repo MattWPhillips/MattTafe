@@ -13,7 +13,7 @@ namespace MyNameSpace
         enum Names
         { 
             Matt,
-            Bek,
+            Mike,
             Ryac,
         }
         string Name;
